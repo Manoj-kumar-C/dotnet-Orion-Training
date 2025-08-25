@@ -25,22 +25,22 @@ class Program
 
 
         if(avg > 89) { 
-                Console.WriteLine("Grade A : ");
+                Console.WriteLine("Grade A ");
         }else if(avg > 79)
         {
-            Console.Write("B");
+            Console.Write("Grade B");
         }
         else if (avg > 69)
         {
-            Console.Write("C");
+            Console.Write("Grade C");
         }
         else if (avg > 59)
         {
-            Console.Write("D");
+            Console.Write("Grade D");
         }
         else
         {
-            Console.Write("E");
+            Console.Write("Grade E");
         }
 
     }
